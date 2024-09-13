@@ -18,6 +18,7 @@
 PRODUCT_RELEASE_NAME := RMX2170
 DEVICE_PATH := device/realme/RMX2170
 
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, device/realme/RMX2170/device.mk)
 
 # Inherit some common TWRP stuff.
